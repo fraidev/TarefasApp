@@ -19,16 +19,20 @@ public class Tarefa {
     private String detalhamento;
     private LocalDate dataLimite;
     private List<Item> itens;
-    private EnumStatusTarefa status;
+    private EnumStatusTarefa status = EnumStatusTarefa.ativa;
 
     public Tarefa(){
         this.itens = new ArrayList<Item>();
+        this.status = EnumStatusTarefa.ativa;
     }
     
     public void addItem(Item item){
         if((this.percentualConcluido + item.getPercentualCorrespondente()) <= 100){
             this.percentualConcluido += item.getPercentualCorrespondente();
             this.itens.add(item);
+        }
+        if(this.percentualConcluido >= 100){
+            this.status = EnumStatusTarefa.concluida;
         }
     }
     
@@ -46,6 +50,9 @@ public class Tarefa {
     }
     public LocalDate getDataLimite(){
         return this.dataLimite;
+    }
+    public EnumStatusTarefa getStatus(){
+        return this.status;
     }
     public void setPercentualConcluido(int percentualConcluido){
         this.percentualConcluido = percentualConcluido;

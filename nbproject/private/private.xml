@@ -3,11 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/G:/NetBeans/Projects/TarefasApp/src/domain/ControleDeTarefas.java</file>
-            <file>file:/G:/NetBeans/Projects/TarefasApp/src/gui/GuiTarefa.java</file>
-            <file>file:/G:/NetBeans/Projects/TarefasApp/src/domain/Tarefa.java</file>
-            <file>file:/G:/NetBeans/Projects/TarefasApp/src/gui/GuiMain.java</file>
-            <file>file:/G:/NetBeans/Projects/TarefasApp/src/gui/GuiItem.java</file>
+            <file>file:/C:/Git/TarefasApp/src/gui/GuiMain.java</file>
+            <file>file:/C:/Git/TarefasApp/src/gui/GuiItem.java</file>
+            <file>file:/C:/Git/TarefasApp/src/gui/GuiTarefa.java</file>
         </group>
     </open-files>
 </project-private>
